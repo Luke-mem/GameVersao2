@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Missão</title>
+</head>
+<body>
+    <a href="educador.html">início</a>
+    
+    <h1>Missão</h1>
+    <form>
+        
+        <input list="verbo" name="verbo" id="verbos" placeholder="Selecione o nível Bloom">
+
+        <datalist id="verbos">
+            <option value="Memorizar">
+            <option value="Compreender">
+            <option value="Aplicar">
+            <option value="Analisar">
+            <option value="Avaliar">
+            <option value="Criar">
+        </datalist>
+        
+
+        <input style="margin-left: 2%;" list="nivelForca" name="nivelForca" id="nivelForca" placeholder="Selecione o nível de Força">
+
+        <datalist id="nivelForca">
+            <option value="1">
+            <option value="2">
+            <option value="3">
+            <option value="4">
+            <option value="5">
+            <option value="6">
+        </datalist>
+
+        <input style="margin-left: 2%;" list="tipo" name="tipo" id="tipos" placeholder="Selecione o Tipo">
+
+        <datalist id="tipos">
+            <option value="Conhecimento">
+            <option value="Habilidade">
+            <option value="Atitude">
+        </datalist>
+
+        <br> <br>
+
+        <input list="verbo" name="verbo" id="verbos" placeholder="Selecione um Verbo">
+
+        <datalist id="verbos">
+            <option value="Memorizar">
+            <option value="Compreender">
+            <option value="Aplicar">
+            <option value="Analisar">
+            <option value="Avaliar">
+            <option value="Criar">
+        </datalist>
+
+        <input style="margin-left: 2%;" list="competencias" name="competencia" 
+            id="competencia" placeholder="Selecione uma Competencia" size="48" >
+        <br>
+
+        <datalist id="competencias">
+            <option value="Listar">
+            <option value="Relembrar">
+            <option value="Reconhecer">
+            <option value="Identificar">
+            <option value="Localizar">
+            <option value="Descrever">
+            <option value="Citar">
+        </datalist>
+        <br>
+ 
+        <input type="text" id="nome" placeholder="Digite o título da missão" size="76">
+
+        <h2>Selecione as etapas da missão que deseja:</h2>
+
+        <table border=1>
+            <thead>
+                <tr>
+                    <th width="164">Intrução</th>
+                    <th width="164">Tipo</th>
+                    <th width="164">Ponto</th>
+                    <th width="50">Check</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td ></td>
+                <td></td>
+                <td></td>
+                <td align="middle"><input type="checkbox"></td>
+            </tbody>
+            <tbody>
+                <td ></td>
+                <td></td>
+                <td></td>
+                <td align="middle"><input type="checkbox"></td>
+            </tbody>
+            <tbody>
+                <td ></td>
+                <td></td>
+                <td></td>
+                <td align="middle"><input type="checkbox"></td>
+            </tbody>
+            <tbody>
+                <td ></td>
+                <td></td>
+                <td></td>
+                <td align="middle"><input type="checkbox"></td>
+            </tbody>
+        </table>
+        <br>
+
+        <input type="submit" value="cadastrar">
+        <input type="submit" value="cancelar">
+
+    </form>
+    
+</body>
+</html>
